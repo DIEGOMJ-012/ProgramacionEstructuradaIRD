@@ -10,6 +10,8 @@ public class VerificacionAprobado {
         promedio = (cal1+cal2+cal3)/3;
         if (promedio >= 7.0) {
             JOptionPane.showMessageDialog(null,"Aprobado");
+            }else{
+            JOptionPane.showMessageDialog(null,"Reprobado");
         }
     }
 }
